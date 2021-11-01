@@ -1,0 +1,379 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #f7f3f3;
+    font-size: 16px;
+    font-family: 'Asap', sans-serif;
+    color: black;
+    margin: 0px;
+    width: 90%;
+    margin: 0% 5%;
+    
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: 900px;
+    word-spacing: -3px;
+}
+
+h2{
+    font-size: 1.1rem;
+}
+
+h3{
+    width: 200px;
+    font-weight: 900px;
+    line-height: 1.5
+}
+
+h4{
+    width: 220px
+}
+.clear{
+    clear: both;
+}
+
+.menu{
+    margin-top: 20px;
+}
+
+/* HEADER */
+
+.header__bar .red{
+    background-color: rgb(228, 0, 43);    
+}
+
+.header__bar li{
+    padding: 5px 15px;
+    list-style: none;
+    display: inline;
+    margin-right: 5px;
+}
+
+.header__bar{
+    margin-left:35% ;
+    margin-top: -10px;
+}
+
+.header__logoImg{
+    margin-top: 5px;
+}
+
+.header__login  {
+    size: 100%;
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+    margin-top: -50px;
+}
+
+
+.header__login  li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.header__login  li a{
+    color: black;
+    text-decoration: none;   
+    font-size: 100%;
+    font-weight: 700; 
+    padding: 2px;
+}
+
+.header__login  li.langua a{
+    color: rgb(228, 0, 43);
+}
+
+
+.header__navbar  li a{
+    color: black;
+    text-decoration: none;   
+    font-size: 100%;
+    font-weight: 700; 
+    padding: 20px ;
+}
+
+.header__navbar{
+    list-style: none;
+    background-color: #F8F8F8;
+    padding: 20px 0px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.header__navbar  li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.header__navbar  li.active a{
+    background-color: black;
+    color: white;
+}
+
+.header__navbar  li.ship a{
+    color: rgb(112, 112, 112);
+}
+
+.header__navbar .cart{
+    margin-right: 0px;
+    float: right;
+    color: rgb(228, 0, 43);
+}
+
+/* CAROUSEL */
+.non_choice, .choice{   
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(228, 0, 43);
+    border-width: 1px;
+}
+
+.choice{
+    background-color: rgb(228, 0, 43);
+}
+
+.carousel-choice li{
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    list-style: none;
+    display: inline;
+    padding-right: 15px;
+    
+}
+
+.carousel-choice{
+    position: absolute;
+    top: 600px;
+    left: 690px;
+}
+
+.carousel{
+    
+    background-image: url('./hinh_anh/09830872986cd54cb4917baf6479d14c.png');
+    background-size: cover;
+    background-position: center;
+    height: 490px;
+}
+
+/* MENU */
+.menu{
+    margin-top: 20px;
+}
+
+.menu li a{
+    color: rgb(112, 112, 112);
+    text-decoration: none;
+    font-size: 1.1rem;   
+    font-weight: bold;
+}
+
+.menu .menu__choice a{
+    color: rgb(228, 0, 43);
+}
+
+.menu{
+    width: 100%;
+    padding-right: 0%;
+    
+}
+
+.menu .menu__combo{
+    float:left;
+    width: 25%;
+    margin-right: 0px;
+    
+}
+
+.menu .menu__combo#left{  
+    list-style: none;
+    font-weight: 100px;
+    line-height: 3.5;
+    margin-right: 0px;
+}
+
+.menu__combo#left li{
+    list-style: none;
+}
+
+.menu .menu__combo img{ 
+    width: 100%
+}
+
+.menu #left{
+    position: relative;
+    top: -30px
+}
+
+.menu__combo ul, h2{
+    margin-bottom: 0px;
+    width: 80%;
+    padding-left: 28px;
+}
+
+.menu__combo h2{
+    padding-left: 18px;
+}
+
+.menu__combo#right1,#right2,#right3{
+    width: 21%;
+    box-shadow: 0px 9px 18px 0px rgb(0 0 0 / 8%);
+    border-radius: 0.3333em;
+    overflow: hidden;
+    margin-right: 70px;
+    padding-bottom: 10px;
+}
+
+.menu__combo#right1 li,#right2 li,#right3 li{
+    color: rgb(112, 112, 112);
+    font-size: 100%;
+    width: 105%;
+}
+
+.menu__combo#right3{
+    margin-right: 0px;
+}
+
+.menu__combo .order-button{
+    padding: 0px;
+    margin-left: 20px;
+}
+
+.menu__combo .order-button button{
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px ;
+    margin-right: 8px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.menu__combo .order-button button.order{
+    background-color: #e61038;
+    border-color: #e61038;
+    color: white;
+}
+
+.menu__combo .order-button li{
+    list-style: none;
+    display: inline;
+    border-color: white;
+}
+
+.app{
+    margin-top: 20px;
+}
+
+.app ul{
+    margin-left: 100px;
+}
+
+.app ul li{
+    margin-left: 50px;
+    display: inline-table;
+    width: 45%; 
+
+}
+
+.app ul li img.right, .app ul li img.left{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.footer{
+    margin-top: 250px;
+}
+
+.footer img{
+    position:absolute;
+    left: 45%;
+    max-width: 25%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.footer{
+    
+    margin-top: 150px;
+}
+
+.footer img.footer__logo{
+    margin-top: -100px;
+    position:absolute;
+    left: 40%;
+    max-width: 25%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.footer .footer__info ul.footer__main{
+    position:absolute;
+    left: 15%;
+}
+
+.footer .footer__info ul.footer__main li{
+    margin: auto;
+    margin-left: 0px;
+    margin-right: 40px;
+    display: inline-table;
+    width: 20%;    
+}
+
+.footer .footer__info input{
+    border-radius: 5px ;
+    font-size: 14px;
+    padding: 11.5px;
+    height: auto;
+    border-color: #fff;
+    box-shadow: 0px 0px 7px 0px rgb(220 217 217 / 59%);
+}
+
+.footer .footer__info button{
+    width: 120px;
+    position:absolute;
+    background-color: #e61038;
+    border-color: #e61038;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 12px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.sosial{
+    position:absolute;
+    right: 28px;
+}
+
+.sosial  ul.footer__icon li {
+    float: right;
+    list-style: none;
+    display: inline-block;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+
+.sosial  ul.footer__icon li img{
+    margin: 10px; 
+   width: 100%;
+    display: inline-table;
+}
+
+.sosial  ul.footer__icon li img.incon_yt{
+    width: 130%;
+    margin: 5px;
+    margin-top: 10px;
+}
+
